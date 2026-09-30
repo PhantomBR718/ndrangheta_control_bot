@@ -1,0 +1,15 @@
+{
+  "name": "ndrangheta-control-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Bot Discord indipendente per comunicare sanzioni con embed e DM.",
+  "scripts": {
+    "start": "node src/index.js",
+    "register": "node src/register-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.21.0",
+    "dotenv": "^16.4.7"
+  }
+}
